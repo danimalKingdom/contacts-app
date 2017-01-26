@@ -1,0 +1,10 @@
+<h1>My Contacts:</h1>
+  
+<% @contacts.each do |contact| %>
+<p><%= contact.email %><p>
+<p><%= contact.full_name %></p>
+<p><%= contact.friendly_created_at %></p>
+<p><%= contact.japan_number %></p>
+<% end %>
+
+
